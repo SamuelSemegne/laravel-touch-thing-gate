@@ -1,5 +1,5 @@
 {
-    "name": "samuelsemegne/laravel-touch-thing-gate",
+    "name": "samuel-semegne/laravel-touch-thing-gate",
     "description": "A gate that checks whether the user and given model are related.",
     "type": "library",
     "license": "MIT",
@@ -12,5 +12,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SamuelSemegne\\LaravelTouchThingGate\\TouchThingGateProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": { "SamuelSemegne\\LaravelTouchThingGate\\": "src/" }
+    },
+    "require": {}    
 }
