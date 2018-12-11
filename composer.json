@@ -1,0 +1,16 @@
+{
+    "name": "samuelsemegne/laravel-touch-thing-gate",
+    "description": "A gate that checks whether the user and given model are related.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Semegne",
+            "email": "samsemegne@gmail.com",
+            "homepage": "http://samuelsemegne.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
