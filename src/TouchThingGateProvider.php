@@ -1,6 +1,6 @@
 <?php
 
-namespace Samuelsemegne\Laravel_Touch_Thing_Gate;
+namespace SamuelSemegne\LaravelTouchThingGate;
 
 use Gate;
 use App\User;
